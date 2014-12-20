@@ -1,0 +1,571 @@
+* {
+    outline: none;
+}
+body {
+    margin: 0;
+    background-image: url(../img/comppattern2.png);
+    font-family: "Fira Sans", "Tahoma", sans-serif;
+    height: 100%;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -o-user-select: none;
+}
+.wrap {
+    min-height: 100%;
+}
+.header {
+    margin: 0;
+    background: #eff3f7;
+    height: 116px;
+}
+.inner-head {
+    margin: 0 auto;
+    width: 1200px;
+}
+.logo {
+    padding-top: 30px;    
+}
+.socialbut {
+    margin-top: -12px;
+    padding-right: 1px;
+    float: right;   
+}
+.socialbut ul {
+    list-style: none;
+}
+.socialbut li {
+    display: inline-block;
+    background: url(../img/socialicons.png) no-repeat;
+    cursor: pointer;
+    margin-left: 18px;
+}
+.socialbut li a {
+    height: 48px;
+    width: 48px;
+    display: block;
+}
+.socialbut .twitter {
+    background-position: -70px 0px;
+}
+.socialbut .facebook {
+    background-position: -141px 0px;
+}
+.socialbut .git {
+    background-position: -212px 0px;
+}
+.socialbut .vk:hover {
+    background-position: 0px -57px;
+}
+.socialbut .twitter:hover {
+    background-position: -70px -57px;
+}
+.socialbut .facebook:hover {
+    background-position: -141px -57px;
+}
+.socialbut .git:hover {
+    background-position: -212px -57px;
+}
+.linear {
+    margin: 0 0 40px;
+    height: 3px;
+    background-color: #1C667A;
+    background-image: linear-gradient(to right, rgba(28, 102, 122, 0.9) 0%, rgba(246, 250, 254, 0.9) 0%, rgba(216, 216, 216, 0.9) 0%, rgba(242, 246, 250, 0.9) 0%, rgba(28, 102, 122, 0.9) 48%, rgba(242, 246, 250, 0.9) 100%);
+}
+.linear-two {
+    height: 3px;
+    background-color: #1C667A;
+    background-image: linear-gradient(to right, rgba(28, 102, 122, 0.9) 0%, rgba(246, 250, 254, 0.9) 0%, rgba(216, 216, 216, 0.9) 0%, rgba(242, 246, 250, 0.9) 0%, rgba(28, 102, 122, 0.9) 48%, rgba(242, 246, 250, 0.9) 100%);    
+}
+.container {
+    margin: 0 auto;
+    width: 960px;
+    min-height: 840px;
+}
+aside {
+    float: left;
+    width: 250px;
+}
+.navbar {
+    margin: 0 0 24px;
+    width: 250px;
+    background: #eff3f7;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    float: left;
+}
+.navbar ul {
+    list-style-type: none;
+    margin: 0 auto;
+    margin-left: 0;
+    padding-left: 0;
+}
+.navbar li {
+    overflow: hidden;
+}
+li.item a {
+    background: url(../img/blueline.png) no-repeat bottom;
+}
+li.aboutme-active a {
+    background: #3ba8c0;
+    color: #fff !important;
+    font-size: 23px !important;
+    -moz-border-radius: 4px 4px 0 0;
+    -webkit-border-radius: 4px 4px 0 0;
+    border-radius: 4px 4px 0 0;
+}
+li.myjob-active a {
+    background: #3ba8c0;
+    color: #fff !important;
+    font-size: 23px !important;
+}
+li.contactme-active a {
+    background: #3ba8c0;
+    color: #fff !important;
+    font-size: 21px !important;
+    -moz-border-radius: 0 0 4px 4px;
+    -webkit-border-radius: 0 0 4px 4px;
+    border-radius: 0 0 4px 4px;
+}
+.navbar a {
+    color: #959aa8;
+    text-decoration: none;
+    font-family: 'fira_sansbook';
+    font-size: 21px;
+    display: block;
+    height: 73px;
+    line-height: 73px;
+    padding-left: 27px;
+}
+.navbar a:hover {
+    color: #3ba8c0;
+    text-decoration: none;
+    font-family: 'fira_sansbook';
+    font-size: 21px;
+    display: block;
+    height: 73px;
+    line-height: 73px;
+}
+.contact {
+    width: 250px;
+    float: left;
+    margin-bottom: 40px;
+}
+.head-contact {
+    height: 40px; 
+    -webkit-border-radius: 4px 4px 0 0; 
+    -moz-border-radius: 4px 4px 0 0; 
+    border-radius: 4px 4px 0 0; 
+    background-color: #3ba8c0;
+    color: #FBFCFD;
+    font-family: 'fira_sansbook';
+    font-size: 21px;
+    line-height: 42px;
+    padding-left: 22px;
+}
+.pochta {
+    width: 250px;
+    height: 39px;
+    background-color: #41B9D4;
+}
+.phone {
+    width: 250px;
+    height: 39px;
+    background-color: #48CBE8;
+}
+.skype {
+    width: 250px; 
+    height: 38px; 
+    -webkit-border-radius: 0 0 4px 4px; 
+    -moz-border-radius: 0 0 4px 4px; 
+    border-radius: 0 0 4px 4px; 
+    background-color: #51daf8;
+}
+.contact a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: 'fira_sansbook';
+    display: block;
+    
+}
+.contact a:hover {
+    text-decoration: underline;
+}
+.pochta img {
+    vertical-align: middle;
+    padding: 11px 20px 12px 42px;
+}
+.phone img {
+    vertical-align: middle;
+    padding: 7px 21px 10px 42px;
+}
+.skype img {
+    vertical-align: middle;
+    padding: 8px 20px 8px 43px;
+}
+.content {
+    float: right;
+    width: 650px;
+    margin-bottom: 15px;
+}
+.block {
+    -webkit-border-radius: 4px; 
+    -moz-border-radius: 4px; 
+    border-radius: 4px;
+    background-color: #eff3f7;
+    margin-bottom: 25px;
+}
+.block-info {
+    padding: 6px 0;
+}
+.block h2 {
+    margin: 0;
+    font-family: 'fira_sansbook';
+    color: #3ba8c0;
+    font-size: 27px;
+    font-weight: 300;
+    border-bottom: 2px solid;
+    display: inline-block;
+    padding: 13px 24px 12px 21px; 
+}
+.block img {
+    vertical-align: middle;
+    float: left;
+    padding: 5px 30px 0px 65px;
+}
+.block span {
+    font-family: 'fira_sansbook';
+    font-size: 17px;
+    color: #4a545d;
+}
+p.block-info-text {
+    font-family: 'fira_sanslight';
+    font-size: 15px;
+    color: #4a545d;
+    padding-top: 12px;
+    line-height: 1.3;
+}
+.block-info .courses {
+    margin-left: 6px;
+    margin-right: 9px;
+}
+.photo {
+    margin-top: 16px;
+    margin-left: 21px;
+    height: 190px;
+    width: 190px;
+    border: 5px solid #3ba8c0;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    border-radius: 100%;
+    background-image: url(../img/ava.jpg);
+    background-position: -22px 0;
+}
+.info {
+    margin-top: 5px;
+    width: 390px;
+    float: right;
+}
+.info span {
+    font-family: 'fira_sansmedium';
+    font-size: 17px;
+    color: #4a545d;
+    padding-right: 20px;
+}
+.info p {
+    font-family: 'fira_sansbook';
+    font-size: 15px;
+    color: #4a545d;
+    padding-bottom: 3px;
+    line-height: 1.3;
+}
+.skills {
+    float: right;
+    width: 200px;
+    margin: -41px 17px;
+    padding-bottom: 38px;
+}
+.skills p {
+    color: #FFF;
+    font-size: 13px;
+    display: inline-block;
+    margin: 0px 5px 5px auto;
+    text-align: center;
+    font-family: "fira_sansbook";
+    background-image: -webkit-linear-gradient(bottom, #2E8CA2 0%, #2E8CA2 52%, #3BA8C0 53%, #3BA8C0 100%);
+    background-image: -o-linear-gradient(bottom, #2E8CA2 0%, #2E8CA2 52%, #3BA8C0 53%, #3BA8C0 100%);
+    background-image: linear-gradient(to top, #2E8CA2 0%, #2E8CA2 52%, #3BA8C0 53%, #3BA8C0 100%);
+    border-radius: 2px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    padding: 2px 10px;
+}
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+}
+.clearfix {
+    clear: both;
+    display: block;
+}
+.footer {
+    margin: 0 auto;
+    height: 78px;
+    background: #eff3f7;
+}
+.copyright {
+    margin: 0px;
+    padding-top: 32px;
+    text-align: center;
+    font-family: 'fira_sanslight';
+    font-size: 13px;
+    color: #687078;
+}
+.content-minor {
+    width: 650px;
+    min-height: 839px;
+    background-color: #EFF3F7;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    float: right;
+    margin-bottom: 40px;
+}
+.content-myjobs h2 {
+    margin: 0px 0px 16px;
+    font-family: 'fira_sansbook';
+    color: #3ba8c0;
+    font-size: 27px;
+    font-weight: 300;
+    border-bottom: 2px solid;
+    display: inline-block;
+    padding: 14px 26px 12px 24px;
+}
+.writeme {
+    margin: 0;
+    width: 650px;
+    height: 121px;
+    background-color: #48CBE8;
+    border-bottom: 17px solid #67DFFA;
+    -moz-border-bottom: 17px solid #67DFFA;
+    -webkit-border-bottom: 17px solid #67DFFA;
+    border-radius: 4px 4px 0 0;
+}
+.writeme h2 {
+    color: #FFF;
+    font-family: 'fira_sansbook';
+    font-size: 27px;
+    font-weight: normal;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 43px;
+    letter-spacing: 0.9px;
+}
+.site {
+    width: 179px;
+    height: 127px;
+    border: 2px solid #3BA8C0;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px; 
+    background: url(../img/mask.png);
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+}
+.site .site-hover, .site .content-minor {
+    width: 181px;
+    height: 127px;
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+}
+.site img {
+    display: block;
+    position: relative;
+    transition: all 0.1s ease-in-out 0.1s;
+}
+.site a.site-link {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    border: 2.5px solid #EFF3F7;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    text-align: center;
+    font-family: 'fira_sansbook';
+    font-size: 1px;
+    padding: 0 3px 0 3px;
+    position: relative;
+    top: 55px; 
+}
+.site a.site-link:hover {
+    box-shadow: 0 0 2px #fff;
+}
+.site .site-hover {
+    background-color: rgba(1, 108, 164, 0.75);
+    opacity:0;
+    transition: all 0.2s ease-in 0.2s;
+}
+.site a.site-link {
+    opacity:0;  
+    transition: all 0.5s ease-in-out 0.1s;
+}
+.site:hover .site-hover {
+    opacity:1;
+    transition-delay: 0s;
+}
+.site:hover a.site-link {
+    opacity:1;
+    font-size: 12px;
+    transition-delay: 0.1s;
+}
+.projects {
+    width: 187px;
+    display: inline-block;
+    margin: 18px 6px 4px 20px;
+    float: left;
+}
+.projects .projects-link {
+    color: #3BA8C0;
+    text-decoration: none;
+    font-size: 13px;
+    font-family: 'fira_sanslight_italic';
+    position: relative;
+    top: -8px;
+}
+.projects p {
+    color: #687078;
+    font-size: 15px;
+    font-family: 'fira_sanslight';
+    text-align: center;
+    position: relative;
+    line-height: 20px;
+    top: -2px;
+}
+.add-site {
+    width: 181px;
+    height: 127px;
+    float: left;
+    border: 2px dashed #3BA8C0;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px; 
+    background: #edf8fc;
+    text-align: center;
+}
+.add-site a {
+    color: #3BA8C0;
+    text-decoration: none;
+    font-family: 'fira_sanslight';
+    font-size: 13px;
+}
+.add-site img {
+    display: block;
+    padding: 35px 0px 6px 75px;
+    transition:all 0.2s ease-in-out;
+    -webkit-transition:all 0.2s ease-in-out;
+    -moz-transition:all 0.2s ease-in-out;
+    -o-transition:all 0.2s ease-in-out;
+}
+.add-site img:hover {
+    display: block;
+    padding: 35px 0px 6px 75px;
+    transform:translate(0, 5px);
+    -webkit-transform:translate(0, 5px);
+    -moz-transform:translate(0, 5px);
+    -o-transform:translate(0, 5px);
+}
+.add-site img:active {
+    display: block;
+    padding: 35px 0px 6px 75px;
+    transform:translate(0, 18px);
+    -webkit-transform:translate(0, 18px);
+    -moz-transform:translate(0, 18px);
+    -o-transform:translate(0, 18px);
+}
+.top-form {
+    margin: 39px auto;
+    width: 402px;
+}
+label {
+    font-family: 'fira_sanslight';
+    font-size: 19px;
+    color: #959aa8;
+    display: block;
+}
+input {
+    width: 180px;
+    height: 36px;
+    background-color: #FBFCFD;
+    border: 1px solid #48CBE8;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    color: #48CBE8;
+    font-family: 'fira_sanslight';
+    font-size: 13px;
+    padding-left: 9px;
+}
+textarea {
+    background-color: #FBFCFD;
+    border: 1px solid #48CBE8;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    color: #48CBE8;
+    font-family: 'fira_sanslight';
+    font-size: 13px;
+    padding: 9px;
+}
+textarea::-webkit-input-placeholder,
+input::-webkit-input-placeholder {
+    color: #48CBE8;
+}
+textarea:-moz-placeholder,
+input:-moz-placeholder {
+    color: #48CBE8;
+}
+.form-name-email {
+    height: 70px;
+}
+.form-name-email-left {
+    float: left;
+}
+.form-name-email-right {
+    float: right;
+}
+.form-mail {
+    margin-top: 8px;
+}
+.textarea-message {
+    width: 382px;
+    height: 163px;
+}
+.form-captcha {
+    margin-top: 8px;
+    height: 110px;
+}
+.input-captcha {
+    margin-top: 21px;
+    float: right;
+    width: 180px;
+    height: 28px;
+}
+.form-captcha img {
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    width: 191px;
+    height: 78px;
+    float: left;
+}
+.form-button {
+    margin-top: 33px;
+    width: 400px;
+}
