@@ -2,7 +2,7 @@
 $title="Главная - сайт портфолио";
 require_once "header.php";
 ?>
-<div class="container">
+<div class="container clearfix">
        <aside>
            <nav class="navbar">
               <ul>

@@ -2,7 +2,7 @@
 $title="Мои работы";
  require_once "header.php";
 ?>
-        <div class="container">
+        <div class="container clearfix">
        <aside>
            <nav class="navbar">
               <ul>
@@ -30,30 +30,39 @@ require_once "contact.php";
             </div>
             <div class="projects">
             <div class="site">
-               <img src="img/image2.png" alt="site2">
+               <img src="img/image2.png" alt="site1">
                 <div class="site-hover">
-                    <a class="site-link" href="http://artemchuykin.com">loftblog.ru</a>
+                    <a class="site-link" href="http://artemchuykin.com">artemchuykin.com</a>
                 </div>
                  </div>
-                 <p><a class="projects-link" href="http://artemchuykin.com">www.loftblog.ru</a><br>Мой личный сайт - визитка</p>
+                 <p><a class="projects-link" href="http://artemchuykin.com">www.artemchuykin.com</a><br>Мой личный сайт - визитка</p>
             </div>
             <div class="projects">
             <div class="site">
-               <img src="img/image3.png" alt="site3">
+               <img src="img/image3.png" alt="site1">
                 <div class="site-hover">
-                    <a class="site-link" href="http://artemchuykin.com">rb-flash.ru</a>
+                    <a class="site-link" href="http://artemchuykin.com">artemchuykin.com</a>
                 </div>
                  </div>
-                 <p><a class="projects-link" href="http://artemchuykin.com">www.rb-flash.ru</a><br>Мой личный сайт - визитка</p>
+                 <p><a class="projects-link" href="http://artemchuykin.com">www.artemchuykin.com</a><br>Мой личный сайт - визитка</p>
             </div>
             <div class="projects">
             <div class="site">
-               <img src="img/image4.png" alt="site4">
+               <img src="img/image4.png" alt="site1">
                 <div class="site-hover">
-                    <a class="site-link" href="http://artemchuykin.com">habra.ru</a>
+                    <a class="site-link" href="http://artemchuykin.com">artemchuykin.com</a>
                 </div>
                  </div>
-                 <p><a class="projects-link" href="http://artemchuykin.com">www.habra.ru</a><br>Мой личный сайт - визитка</p>
+                 <p><a class="projects-link" href="http://artemchuykin.com">www.artemchuykin.com</a><br>Мой личный сайт - визитка</p>
+            </div>
+            <div class="projects">
+            <div class="site">
+               <img src="img/image1.png" alt="site1">
+                <div class="site-hover">
+                    <a class="site-link" href="http://artemchuykin.com">artemchuykin.com</a>
+                </div>
+                 </div>
+                 <p><a class="projects-link" href="http://artemchuykin.com">www.artemchuykin.com</a><br>Мой личный сайт - визитка</p>
             </div>
             <div class="projects">
             <div class="add-site">

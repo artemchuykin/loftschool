@@ -1,5 +1,6 @@
 .admin-container {
     width: 960px;
+    min-height: 550px;
     margin: 0 auto;
 }
 .admin-window {
@@ -15,49 +16,45 @@
     box-shadow: 0 6px 12.5px 0.5px rgba(13, 16, 7,         0.35);
 }
 .admin-header {
-    height: 44px;
+    height: 92px;
     background-color: #48CBE8;
     border-radius: 4px 4px 0 0;
     -moz-border-radius: 4px 4px 0 0;
     -webkit-border-radius: 4px 4px 0 0;
-    border-bottom: 10px solid #67dffa;
-    -moz-border-bottom: 10px solid #67dffa;
-    -webkit-border-bottom: 10px solid #67dffa;
+    border-bottom: 15px solid #67dffa;
+    -moz-border-bottom: 15px solid #67dffa;
+    -webkit-border-bottom: 15px solid #67dffa;
 }
 .admin-header h3 {
     color: #fff;
-    font-family: 'fira_sansregular';
-    font-size: 25px;
+    font-family: 'fira_sansbook';
+    font-size: 40px;
     font-weight: normal;
-    padding: 5px 0 0 12px;
-}
-.admin-close {
-    float: right;
-    padding: 10px; 10px;
+    padding: 17px 0 0 132px;
 }
 .admin-form {
     display: block;
     padding: 5px 0 0 21px;
 }
 .admin-form label {
-    font-family: 'fira_sansbook';
-    font-size: 17px;
+    font-family: 'fira_sanslight';
+    font-size: 36px;
     color: #959aa8;
-    float: left;
+    text-align: center;
+    padding-top: 10px;
 }
 .admin-form input {
-    width: 310px;
-    height: 36px;
+    margin: 0 58px;
+    width: 425px;
+    height: 62px;
     background-color: #FBFCFD;
     border: 1px solid #48CBE8;
-    -moz-border-radius: 4px;
-    -webkit-border-radius: 4px;
-    border-radius: 4px;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
     color: #48CBE8;
     font-family: 'fira_sanslight';
-    font-size: 13px;
-    padding-left: 9px;
-    margin-bottom: 5px;
+    font-size: 17px;
 }
 .admin-form input::-webkit-input-placeholder {
     color: #48CBE8;
@@ -66,57 +63,57 @@
     color: #48CBE8;
 }
 .admin-button {
-    margin: 16px 91px;
+    margin: 32px 164px;
 }
 .admin-button-add {     
-    border: 2px solid #48CBE8;
-    border-bottom: 3px solid #3BA8C0;
+    border: 1px solid #48CBE8;
+    border-bottom: 4px solid #3BA8C0;
     background-color: #48CBE8;
-    -moz-border-radius: 5px;
-    -webkit-border-radius: 5px;
-    border-radius: 5px;   
-    width: 139px;
-    height: 34px;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    border-radius: 8px;   
+    width: 228px;
+    height: 55px;
     cursor: pointer;
     color: #fff;
     font-family: 'fira_sansbook';
-    font-size: 19px;
+    font-size: 36px;
     text-align: center;
     transition: .1s;
     margin: 0;
     padding: 0;
 }
 .admin-button-add:hover {
-    border: 2px solid #4fd3f0;
-    border-bottom: 3px solid #3BA8C0;
+    border: 1px solid #4fd3f0;
+    border-bottom: 4px solid #3BA8C0;
     background-color: #4fd3f0;
-    -moz-border-radius: 5px;
-    -webkit-border-radius: 5px;
-    border-radius: 5px;   
-    width: 139px;
-    height: 34px;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    border-radius: 8px;   
+    width: 228px;
+    height: 55px;
     cursor: pointer;
     color: #fff;
     font-family: 'fira_sansbook';
-    font-size: 19px;
+    font-size: 36px;
     text-align: center;
     transition: .1s;
     margin: 0 !important;
     padding: 0 !important;
 }
 .admin-button-add:active {     
-    border: 2px solid #4fd3f0;
-    border-bottom: 2px solid #4fd3f0;
+    border: 1px solid #4fd3f0;
+    border-bottom: 4px solid #4fd3f0;
     background-color: #4fd3f0;
-    -moz-border-radius: 5px;
-    -webkit-border-radius: 5px;
-    border-radius: 5px;   
-    width: 139px;
-    height: 34px;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    border-radius: 8px;   
+    width: 228px;
+    height: 55px;
     cursor: pointer;
     color: #fff;
     font-family: 'fira_sansbook';
-    font-size: 19px;
+    font-size: 36px;
     text-align: center;
     transform: translate(0, 2px);
     margin: 0 !important;

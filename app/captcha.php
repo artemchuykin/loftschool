@@ -1,7 +1,7 @@
 <?php
 session_start();
 // создаем ресурс из изображения
-$img_captcha = imagecreatefromjpeg('../img/bg-captcha.jpg');
+$img_captcha = imagecreatefromjpeg('../img/bg-captcha.JPG');
 // создаем объект цвета
 $color = imagecolorallocate($img_captcha, 64, 64, 64);
 // сглаживания

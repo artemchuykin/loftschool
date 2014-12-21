@@ -2,7 +2,7 @@
 $title="Связаться со мной";
 require_once "header.php";
 ?>
-        <div class="container">
+        <div class="container clearfix">
        <aside>
            <nav class="navbar">
             <ul>

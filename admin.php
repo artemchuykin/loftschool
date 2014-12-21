@@ -20,16 +20,16 @@
                 <h3>Авторизируйтесь</h3>
             </div>
                 <form method="" action="" class="admin-form">
-                  <div class="name-project">
-                   <label for="name-project">Название проекта</label>
-                   <input type="text" name="nameproject" placeholder="Введите название"></inupt>
+                  <div class="admin-login">
+                   <label for="admin-login">Логин</label>
+                   <input type="text" name="admin-pass" placeholder="Введите пароль"></inupt>
                    </div>
-                   <div class="url-project">
-                   <label for="url-project">URL проекта</label>
-                   <input type="text" name="urlproject" placeholder="Добавьте ссылку"></inupt>
+                   <div class="admin-login">
+                   <label for="admin-login">Пароль</label>
+                   <input type="text" name="admin-login" placeholder="Введите логин"></inupt>
                    </div>
                    <div class="admin-button">
-                       <button class="admin-button-add">Добавить</button>
+                       <button class="admin-button-add">Войти</button>
                    </div>
                </form>
             </div>

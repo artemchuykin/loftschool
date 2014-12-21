@@ -15,7 +15,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
-      <div class="wrap">
        <header class="header">
           <div class="inner-head">
              <div class="logo">

@@ -1,4 +1,4 @@
-<!--       Модальное окно-->
+       <!--       Модальное окно-->
         <div class="md-window">
             <div class="md-header">
                <a class="md-close" href="#"><img src="img/close.png" alt="close"></a>
